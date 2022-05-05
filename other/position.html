@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+  <title>Position</title>
+
+  <style media="screen">
+    body {
+      height: 100%;
+    }
+
+    .thumbsbox {
+      width: 50%;
+      height: 50%;
+      border: solid;
+    }
+
+    .pTop {
+      position: absolute;
+      top: 0px;
+      border: solid;
+      font-size: 6px;
+    }
+
+    .pBot {
+      position: absolute ;
+      bottom: 0px;
+      border: solid;
+      font-size: 106px;
+    }
+
+    .pLeft {
+      position: absolute ;
+      left: 0px;
+      border: solid;
+      font-size: 6px;
+    }
+
+    .pRight {
+      position: absolute;
+      right: 0px;
+      border: solid;
+      font-size: 6px;
+    }
+
+
+    #pTop {
+      background-color: #7AF12D;
+      text-align: center;
+    }
+
+    #pBot {
+      background-color: #2DF1E9;
+      text-align: center;
+    }
+
+    #pLeft {
+      background-color: #ff0000;
+      text-align: center;
+    }
+
+    #pRight {
+      background-color: #FFFF00;
+      text-align: center;
+    }
+
+
+    #pTop:hover {
+      background-color: #90EE90;
+    }
+
+    #pBot:hover {
+      background-color: #ADD8E6;
+    }
+
+    #pLeft:hover {
+      background-color: #ffcccb;
+    }
+
+    #pRight:hover {
+      background-color: #ffffe0;
+    }
+
+    /*
+  #1: Make four selectors, one for each ID
+  #2:Each ID will be the correct HEXADECIMAL BACKGROUND COLOR.
+  #3: Four more selectors that have a lighter color.
+    when you hover over ID.
+
+  */
+  </style>
+
+</head>
+
+
+<body>
+
+  <div id="pTop" class="thumbsbox pTop pLeft">
+  Up
+  </div>
+
+  <div id="pBot" class="thumbsbox pTop pRight">
+    Wiggle
+  </div>
+
+  <div id="pLeft" class="thumbsbox pLeft pBot">
+    Down
+  </div>
+
+  <div id="pRight" class="thumbsbox pRight pBot">
+    Oops
+  </div>
+
+</body>
+
+
+</html>
