@@ -1,0 +1,31 @@
+div {
+  border-style: dashed;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-shadow: 2px;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+  p {
+    font-size: 20px;
+    font-family: Georgia;
+    margin: 5px;
+    color: green;
+  }
+
+h1 {
+ background-color: #FA5053;
+box-shadow: 5px;
+  background-image: radial-gradient(red, yellow, blue)
+}
+
+body {
+ background-image: url("img/dn.jpg");
+ background-size: cover;
+
+}
+
+a {
+color: yellow;
+  float: right;
+}
