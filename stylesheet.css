@@ -4,6 +4,7 @@ div {
   padding-right: 5px;
   text-shadow: 2px;
   background: linear-gradient(#e66465, #9198e5);
+  text-align: center;
 }
 
   p {
@@ -26,6 +27,6 @@ body {
 }
 
 a {
-color: yellow;
-  float: right;
+color: red;
+
 }
